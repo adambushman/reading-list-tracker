@@ -1,0 +1,31 @@
+body {
+    color: #1C1D21;
+    background-color: #F1E3E4;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+.pill-category {
+    background-color: #87698C;
+    color: #FFFFFF;
+    font-weight:bold;
+}
+
+.pill-time {
+    background-color: #A47995;
+    color: #FFFFFF;
+    font-weight:bold;
+}
+
+.pill-pages {
+    background-color: #B9A2A2;
+    color: #FFFFFF;
+    font-weight:bold;
+}
+
+.link-icon {
+    font-size: 1rem;
+}
