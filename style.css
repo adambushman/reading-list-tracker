@@ -56,3 +56,17 @@ nav a {
 .btn-main:hover {
     background-color: #dfc9ca;
 }
+
+#year-nav .active {
+    background-color: #B9A2A2;
+    border: 1px solid #B9A2A2;
+}
+
+#category-nav .active {
+    background-color: #87698C;
+    border: 1px solid #87698C;
+}
+
+#year-nav, #category-nav {
+    font-weight: bold;
+}

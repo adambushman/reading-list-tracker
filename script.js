@@ -8,6 +8,8 @@ const state = {
     }
 }
 
+const formatTime = d3.timeFormat("%B %d, %Y");
+
 function pushList() {
     d3.select("#book-list").selectAll("li")
         .data(state.data)
@@ -15,6 +17,7 @@ function pushList() {
         .append("li")
         .attr("class", "list-group-item")
         .html((d) => {
+            let date_finished = d.date_finished == 'Invalid Date' ? '' : formatTime(d.date_finished);
             return `
             <div class="card border-0">
                 <div class="card-body">
@@ -26,7 +29,7 @@ function pushList() {
                     </h3>
                     <p class="mb-2 author"><small>&#8212;${d.author}, ${d.year}</small></p>
                     <p>${d.description}</p>
-                    <p><small>Started: <span class="fw-bold">${d.date_started}</span> | Finished: <span class="fw-bold">${d.date_finished}</span></small></small></p>
+                    <p><small>Started: <span class="fw-bold">${formatTime(d.date_started)}</span> | Finished: <span class="fw-bold">${date_finished}</span></small></small></p>
                     <div class="d-flex flex-wrap gap-2">
                         <div class="rounded-pill py-1 px-3 pill-category"><small><i class="bi ${state.categories[d.category]} me-1"></i>
                             <span>${d.category}</span>
@@ -76,16 +79,90 @@ function openModal(id) {
     modal_toggle.toggle();
 }
 
-function updateList() {
-    console.log(data);
+function pushNav() {
+    let years = ["Year"].concat([...new Set(d3.map(state.data, d => { return d.year_started; }))]);
+    let categories = ["Category"].concat([...new Set(d3.map(state.data, d => { return d.category; }))]);
+
+    d3.select("#year-nav").selectAll("li")
+        .data(years)
+        .enter()
+        .append("li")
+        .attr("class", (d,i) => {return i == 0 ? "list-group-item active" : "list-group-item"; })
+        .html((d,i) => { 
+            return i == 0 ? d : `<a class="nav-link" href="#" onclick="updateList('${d}')">${d}</a>`;
+        });
+
+    d3.select("#category-nav").selectAll("li")
+        .data(categories)
+        .enter()
+        .append("li")
+        .attr("class", (d,i) => {return i == 0 ? "list-group-item active" : "list-group-item"; })
+        .html((d,i) => { 
+            return i == 0 ? d : `<a class="nav-link" href="#" onclick="updateList('${d}')">${d}</a>`;
+        });
+}
+
+function updateList(item) {
+    console.log(item, state.data);
+    let new_data = state.data;
+    if(item != 'All') {
+        new_data = aq.from(state.data)
+            .filter(aq.escape(d => item.includes(d.year_started) | item.includes(d.category)))
+            .objects()
+    }
+
+    console.log(new_data);
+
+    d3.select("#book-list").selectAll('li').remove();
+
+    d3.select("#book-list").selectAll("li")
+        .data(new_data)
+        .enter()
+        .append("li")
+        .attr("class", "list-group-item")
+        .html((d) => {
+            let date_finished = d.date_finished == 'Invalid Date' ? '' : formatTime(d.date_finished);
+            return `
+            <div class="card border-0">
+                <div class="card-body">
+                    <h3 class="card-title position-relative">
+                        ${d.title}
+                        <span class="ms-3 position-absolute translate-middle">
+                            <i class="bi bi-box-arrow-up-right link-icon"></i>
+                        </span>
+                    </h3>
+                    <p class="mb-2 author"><small>&#8212;${d.author}, ${d.year}</small></p>
+                    <p>${d.description}</p>
+                    <p><small>Started: <span class="fw-bold">${formatTime(d.date_started)}</span> | Finished: <span class="fw-bold">${date_finished}</span></small></small></p>
+                    <div class="d-flex flex-wrap gap-2">
+                        <div class="rounded-pill py-1 px-3 pill-category"><small><i class="bi ${state.categories[d.category]} me-1"></i>
+                            <span>${d.category}</span>
+                        </small></div>
+                        <div class="rounded-pill py-1 px-3 pill-time"><small><i class="bi bi-stopwatch me-1"></i>
+                            <span>7</span> days
+                        </small></div>
+                        <div class="rounded-pill py-1 px-3 pill-pages"><small><i class="bi bi-file-earmark me-1"></i>
+                            <span>${d.pages}</span> pages
+                        </small></div>
+                    </div>
+                    <a href="#" onclick="openModal(${d.id})" class="stretched-link"></a>
+                </div>
+            </div>
+        `});
 }
 
 d3.csv("reading-list.csv")
     .then((data) => {
         state.data = aq.from(data)
             .derive({id: d => op.row_number()})
+            .derive({
+                date_started: aq.escape(d => new Date(d.date_started)),
+                date_finished: aq.escape(d => new Date(d.date_finished))
+            })
+            .derive({ year_started: aq.escape(d => d.date_started.getFullYear()) })
             .objects();
 
+        pushNav();
         pushList();
     })
     .catch((error) => {

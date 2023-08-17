@@ -35,11 +35,15 @@
         <div class="container">
             <div class="row justify-content-center my-5">
                 <div class="col-md-4">
-                    <ul class="list-group">
-                        <li class="list-group-item">An item</li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
-                      </ul>
+                    <ul id="all-nav" class="list-group">
+                        <li class="list-group-item fw-bold">
+                            <a class="nav-link" href="#" onclick="updateList('All')">All</a>
+                        </li>
+                    </ul>
+                    <ul id="year-nav" class="list-group mt-4">
+                        <li class="list-group-item active" aria-current="true">Year</li>
+                    </ul>
+                    <ul id="category-nav" class="list-group mt-4"></ul>
                 </div>
                 <div class="col-md-8 mt-3 mt-md-0">
                     <ul id="book-list" class="list-group"></ul>
