@@ -57,8 +57,8 @@ function openModal(id) {
     let modal_toggle = new bootstrap.Modal(document.getElementById('details-modal'));
     let modal = d3.select("#details-modal");
 
-    modal.select(".modal-title").text(target_data.title);
-    modal.select(".modal-author").text(target_data.author);
+    modal.select("#modal-title").text(target_data.title);
+    modal.select(".modal-author").text(`${target_data.author}, ${target_data.year}`);
 
     modal.select("#takeaway-list").selectAll("li").remove();
     let takeaways = target_data.takeaways.split("|");
