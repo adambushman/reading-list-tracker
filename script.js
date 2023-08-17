@@ -76,6 +76,12 @@ function openModal(id) {
             .text((d) => d);
     }
 
+    modal.select("#img").selectAll('img').remove();
+    modal.select("#img")
+        .append("img")
+        .attr("class", "img-fluid rounded")
+    .attr("src", `book-images/${target_data.image}`)
+
     modal_toggle.toggle();
 }
 
