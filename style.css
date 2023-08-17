@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
 }
 
+.offcanvas-subtitle {
+    color: #B9A2A2;
+}
+
 .pill-category {
     background-color: #87698C;
     color: #FFFFFF;
