@@ -1,0 +1,90 @@
+[
+    {
+        "title": "Pete Maravich",
+        "description": "Pete Maravich started playing basketball as soon as he could walk. Motivated to be the best by his basketball coach father, Pete eventually became a legend at Lousiana State University...[and] to enshrinement in the Hall of Fame... ",
+        "author": "Wayne Federman and Marshall Terrill",
+        "year": "2008",
+        "category": "Biography",
+        "pages": "412",
+        "image": "Pete Maravich.jpg",
+        "date_started": "7/21/2023",
+        "date_finished": "",
+        "takeaways": ""
+    },
+    {
+        "title": "resonate",
+        "description": "By leveraging techniques normally reserved for cinema and literature, Resonate reveals how to transform any presentation into an engaging journey.",
+        "author": "Nancy Duarte",
+        "year": "2010",
+        "category": "Business",
+        "pages": "233",
+        "image": "resonate.jpg",
+        "date_started": "7/19/2023",
+        "date_finished": "",
+        "takeaways": ""
+    },
+    {
+        "title": "slide:ology",
+        "description": "No matter where you are on the organizational ladder, the odds are high that you've delivered a high-stakes presentation...unlike verbal skills, effective visual expression is not easy, natural, or actively taught in schools or business training programs. slide:ology fills that void.",
+        "author": "Nancy Duarte",
+        "year": "2008",
+        "category": "Business",
+        "pages": "261",
+        "image": "slideology.jpg",
+        "date_started": "6/30/2023",
+        "date_finished": "7/18/2023",
+        "takeaways": [
+            "Communication mediums are a spectrum. The trick is to land on at a crossroads where audience, situation, message, etc., align for a transformative experience.", 
+            "Design is a journey of discovery. Good design comes with time and experimentation. Embrace the struggle necessary to craft an experience.", 
+            "Storytelling is an arc, a progression of curiosity and information absorption. Embrace the story by telling it scene by scene, no matter the content."
+        ]
+    },
+    {
+        "title": "How Charts Lie",
+        "description": "Today, public conversations are increasingly driven by numbers. While charts, infographics, and diagrams can make us smarter, they can also deceive...Demystifying [is] an essential new literacy for our data-driven world.",
+        "author": "Alberto Cairo",
+        "year": "2020",
+        "category": "Data",
+        "pages": "256",
+        "image": "How Charts Lie.jpg",
+        "date_started": "6/13/2023",
+        "date_finished": "7/15/2023",
+        "takeaways": ""
+    },
+    {
+        "title": "Driven",
+        "description": "[Driven] talks about the many facets of Larrys life and legacy and speaks candidly about the people and experiences that influenced him. It doesn t just tell Larry Millers story, it shares lessons painful as well as joyful lessons he has learned from his experiences. ",
+        "author": "Larry H. Miller with Doug Robinson",
+        "year": "2010",
+        "category": "Biography",
+        "pages": "384",
+        "image": "Driven.webp",
+        "date_started": "6/8/2023",
+        "date_finished": "6/11/2023",
+        "takeaways": ""
+    },
+    {
+        "title": "Thinking Basketball",
+        "description": "Thinking Basketball challenges a number of common beliefs about the game by taking a deep dive into the patterns and history of the NBA.",
+        "author": "Ben Taylor",
+        "year": "2016",
+        "category": "Basketball",
+        "pages": "180",
+        "image": "Thinking Basketball.webp",
+        "date_started": "5/30/2023",
+        "date_finished": "6/7/2023",
+        "takeaways": ""
+    },
+    {
+        "title": "The Crux",
+        "description": "Richard P. Rumelt's breakthrough concept is that leaders become effective strategists when they focus on challenges rather than goals, pinpointing the crux of their pivotal challenge.",
+        "author": "Richard P. Rumelt",
+        "year": "2022",
+        "category": "Business",
+        "pages": "368",
+        "image": "The Crux.jpg",
+        "date_started": "3/7/2023",
+        "date_finished": "4/30/2023",
+        "takeaways": ""
+    }
+]
