@@ -2,7 +2,7 @@
 
 # Reading List Tracker
 
-An interactive list of the books I'm reading and the takeaways I'm working to implement in my life. [Find out what I'm reading](https://adambushman.github.io/lets-draft-nba/)!
+An interactive list of the books I'm reading and the takeaways I'm working to implement in my life. [Find out what I'm reading](https://adambushman.github.io/reading-list-tracker/)!
 
 ## Description
 
