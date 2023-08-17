@@ -61,9 +61,8 @@ function openModal(id) {
     modal.select(".modal-author").text(`${target_data.author}, ${target_data.year}`);
 
     modal.select("#takeaway-list").selectAll("li").remove();
-    let takeaways = target_data.takeaways.split("|");
-    console.log(takeaways);
-    if(takeaways[0] == '') {
+    let takeaways = target_data.takeaways;
+    if(takeaways.length == 0) {
         modal.select("#takeaway-list")
             .append("li")
             .text("Takeaways coming soon")
@@ -157,8 +156,9 @@ function updateList(item) {
         `});
 }
 
-d3.csv("reading-list.csv")
+d3.json("reading-list.json")
     .then((data) => {
+        console.log(data);
         state.data = aq.from(data)
             .derive({id: d => op.row_number()})
             .derive({
