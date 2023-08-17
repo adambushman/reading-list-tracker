@@ -38,10 +38,42 @@ function pushList() {
                             <span>${d.pages}</span> pages
                         </small></div>
                     </div>
-                    <a href="#" class="stretched-link"></a>
+                    <a href="#" onclick="openModal(${d.id})" class="stretched-link"></a>
                 </div>
             </div>
         `})
+}
+
+function openModal(id) {
+    let target_data = aq.from(state.data)
+        .filter(aq.escape(d => d.id == id))
+        .objects()[0];
+
+    console.log(target_data);
+
+    let modal_toggle = new bootstrap.Modal(document.getElementById('details-modal'));
+    let modal = d3.select("#details-modal");
+
+    modal.select(".modal-title").text(target_data.title);
+    modal.select(".modal-author").text(target_data.author);
+
+    modal.select("#takeaway-list").selectAll("li").remove();
+    let takeaways = target_data.takeaways.split("|");
+    console.log(takeaways);
+    if(takeaways[0] == '') {
+        modal.select("#takeaway-list")
+            .append("li")
+            .text("Takeaways coming soon")
+    } else {
+        modal.select("#takeaway-list")
+            .selectAll("li")
+            .data(takeaways)
+            .enter()
+            .append("li")
+            .text((d) => d);
+    }
+
+    modal_toggle.toggle();
 }
 
 function updateList() {
@@ -50,7 +82,10 @@ function updateList() {
 
 d3.csv("reading-list.csv")
     .then((data) => {
-        state.data = data;
+        state.data = aq.from(data)
+            .derive({id: d => op.row_number()})
+            .objects();
+
         pushList();
     })
     .catch((error) => {

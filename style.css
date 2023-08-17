@@ -47,3 +47,12 @@ nav a {
     color: #87698C;
     font-size: 0.9rem;
 }
+
+.btn-main {
+    background-color: #F1E3E4;
+    color: #1C1D21;
+}
+
+.btn-main:hover {
+    background-color: #dfc9ca;
+}
