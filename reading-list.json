@@ -49,7 +49,10 @@
         "image": "How Charts Lie.jpg",
         "date_started": "6/13/2023",
         "date_finished": "7/15/2023",
-        "takeaways": ""
+        "takeaways": [
+            "The power of visualizations come in their abilit to distill the complex. Be careful to do so in a truly representative manner that does not manipulate or deceive.", 
+            "Special care must be taken when consuming charts. Give the utmost attention to every component of the visual to fully understand what it does and doesn't say."
+        ]
     },
     {
         "title": "Driven",
@@ -61,7 +64,11 @@
         "image": "Driven.webp",
         "date_started": "6/8/2023",
         "date_finished": "6/11/2023",
-        "takeaways": ""
+        "takeaways": [
+            "You're capable of anything so long as is present a fierce desire and a signifcant investment made.", 
+            "Greatness comes at a cost, often realized by those closest to us first, but eventually paid in full one's self.", 
+            "What is your reputation? What is your legacy? Every moment is a chance to leave your mark on things and people around you."
+        ]
     },
     {
         "title": "Thinking Basketball",
@@ -73,7 +80,10 @@
         "image": "Thinking Basketball.webp",
         "date_started": "5/30/2023",
         "date_finished": "6/7/2023",
-        "takeaways": ""
+        "takeaways": [
+            "Being proficient at something doesn't fully correlate with the best outcome resulting from one's efforts. Often the sum product of a group can yield greater results.", 
+            "The objectives can be muddled by the process, especially when there is a correlation. Focus on what truly drives the objective independent of external factors."
+        ]
     },
     {
         "title": "The Crux",
@@ -85,6 +95,10 @@
         "image": "The Crux.jpg",
         "date_started": "3/7/2023",
         "date_finished": "4/30/2023",
-        "takeaways": ""
+        "takeaways": [
+            "Strategy isn't a process; there's no set theory on strategy design or creation. Strategy is about identifying the key component and organizing everything and everyone therearound.", 
+            "Science is the study of how things are while design is the study of how things out to be. Strategy sits at an intriguing intersection.", 
+            "Goals are often set arbitrarily; this is often the Cheshire Cat scenario. Instead, Strategy can reveal the landscape and make objectives crystal clear."
+        ]
     }
 ]
