@@ -2,7 +2,7 @@ const state = {
     data: [], 
     categories: {
         Basketball: "bi-dribbble", 
-        Business: "bi-briefcase", 
+        Professional: "bi-briefcase", 
         Data: "bi-bar-chart", 
         Biography: "bi-person"
     }
@@ -101,7 +101,7 @@ function pushNav() {
         .data(categories)
         .enter()
         .append("li")
-        .attr("class", (d,i) => {return i == 0 ? "list-group-item active" : "list-group-item"; })
+        .attr("class", (d,i) => {return i == 0 ? "list-group-item list-group-item-action active" : "list-group-item"; })
         .html((d,i) => { 
             return i == 0 ? d : `<a class="nav-link" href="#" onclick="updateList('${d}')">${d}</a>`;
         });

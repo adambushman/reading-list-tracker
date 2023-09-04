@@ -8,15 +8,18 @@
         "pages": "412",
         "image": "Pete Maravich.jpg",
         "date_started": "7/21/2023",
-        "date_finished": "",
-        "takeaways": ""
+        "date_finished": "8/28/2023",
+        "takeaways": [
+            "No measure of success is worth sacrificing one's own mentalor physical health, nor relationships that fulfill one's purpose.", 
+            "Employ the roles of father, husband, friend, etc. as best as possible in every moment so that change brings satisfaction, not regret."
+        ]
     },
     {
         "title": "resonate",
         "description": "By leveraging techniques normally reserved for cinema and literature, Resonate reveals how to transform any presentation into an engaging journey.",
         "author": "Nancy Duarte",
         "year": "2010",
-        "category": "Business",
+        "category": "Professional",
         "pages": "233",
         "image": "resonate.jpg",
         "date_started": "7/19/2023",
@@ -28,7 +31,7 @@
         "description": "No matter where you are on the organizational ladder, the odds are high that you've delivered a high-stakes presentation...unlike verbal skills, effective visual expression is not easy, natural, or actively taught in schools or business training programs. slide:ology fills that void.",
         "author": "Nancy Duarte",
         "year": "2008",
-        "category": "Business",
+        "category": "Professional",
         "pages": "261",
         "image": "slideology.jpg",
         "date_started": "6/30/2023",
@@ -90,7 +93,7 @@
         "description": "Richard P. Rumelt's breakthrough concept is that leaders become effective strategists when they focus on challenges rather than goals, pinpointing the crux of their pivotal challenge.",
         "author": "Richard P. Rumelt",
         "year": "2022",
-        "category": "Business",
+        "category": "Professional",
         "pages": "368",
         "image": "The Crux.jpg",
         "date_started": "3/7/2023",
