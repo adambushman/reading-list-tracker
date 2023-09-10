@@ -4,7 +4,8 @@ const state = {
         Basketball: "bi-dribbble", 
         Professional: "bi-briefcase", 
         Data: "bi-bar-chart", 
-        Biography: "bi-person"
+        Biography: "bi-person", 
+        Finance: "bi-piggy-bank"
     }
 }
 
