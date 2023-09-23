@@ -19,6 +19,7 @@ function pushList() {
         .attr("class", "list-group-item")
         .html((d) => {
             let date_finished = d.date_finished == 'Invalid Date' ? '' : formatTime(d.date_finished);
+            let days_to_finish = isNaN(d.days_to_finish) ? '...' : Math.round(d.days_to_finish) + ' days';
             return `
             <div class="card border-0">
                 <div class="card-body">
@@ -36,7 +37,7 @@ function pushList() {
                             <span>${d.category}</span>
                         </small></div>
                         <div class="rounded-pill py-1 px-3 pill-time"><small><i class="bi bi-stopwatch me-1"></i>
-                            <span>7</span> days
+                            <span>${days_to_finish}</span>
                         </small></div>
                         <div class="rounded-pill py-1 px-3 pill-pages"><small><i class="bi bi-file-earmark me-1"></i>
                             <span>${d.pages}</span> pages
@@ -128,6 +129,7 @@ function updateList(item) {
         .attr("class", "list-group-item")
         .html((d) => {
             let date_finished = d.date_finished == 'Invalid Date' ? '' : formatTime(d.date_finished);
+            let days_to_finish = isNaN(d.days_to_finish) ? '...' : Math.round(d.days_to_finish) + ' days';
             return `
             <div class="card border-0">
                 <div class="card-body">
@@ -145,7 +147,7 @@ function updateList(item) {
                             <span>${d.category}</span>
                         </small></div>
                         <div class="rounded-pill py-1 px-3 pill-time"><small><i class="bi bi-stopwatch me-1"></i>
-                            <span>7</span> days
+                            <span>${days_to_finish}</span>
                         </small></div>
                         <div class="rounded-pill py-1 px-3 pill-pages"><small><i class="bi bi-file-earmark me-1"></i>
                             <span>${d.pages}</span> pages
@@ -166,9 +168,12 @@ d3.json("reading-list.json")
                 date_started: aq.escape(d => new Date(d.date_started)),
                 date_finished: aq.escape(d => new Date(d.date_finished))
             })
+            .derive({
+                days_to_finish: d => (d.date_finished - d.date_started) / (1000 * 60 * 60 * 24) // Days
+            })
             .derive({ year_started: aq.escape(d => d.date_started.getFullYear()) })
             .objects();
-
+        console.log(state.data);
         pushNav();
         pushList();
     })
