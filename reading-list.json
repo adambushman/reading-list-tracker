@@ -1,15 +1,31 @@
 [
     {
+        "title": "How to Lie with Statistics",
+        "description": "The book remains relevant as a wake-up call for people unaccustomed to examining the endless flow of numbers pouring from Wall Street, Madison Avenue, and everywhere else someone has an axe to grind, a point to prove, or a product to sell.",
+        "author": "Darrell Huff",
+        "year": "1993",
+        "category": "Data",
+        "pages": "144",
+        "image": "How to Lie with Statistics.jpg",
+        "date_started": "9/22/2023",
+        "date_finished": "",
+        "takeaways": ""
+    },
+    {
         "title": "The Psychology of Money",
-        "description": "Doing well with money isn’t necessarily about what you know. It’s about how you behave. And behavior is hard to teach, even to really smart people.",
+        "description": "Doing well with money isn't necessarily about what you know. It's about how you behave. And behavior is hard to teach, even to really smart people.",
         "author": "Morgan Housel",
         "year": "2020",
         "category": "Finance",
         "pages": "256",
         "image": "The Psychology of Money.jpg",
         "date_started": "9/4/2023",
-        "date_finished": "",
-        "takeaways": ""
+        "date_finished": "9/21/2023",
+        "takeaways": [
+            "Learn to be satisfied with enough, creating a gap between your ego and income such that flexibility, optionality, and freedom are at your disposal.", 
+            "Perceptions of others and their financial pathes aren't reality and don't reflect their status of wealth, nor the game they are playing.", 
+            "Bet on time and consistency to stockpile your savings, compound your investments, and reveal true desires and passions worthy of one's money."
+        ]
     },
     {
         "title": "Pete Maravich",
