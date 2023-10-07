@@ -8,8 +8,11 @@
         "pages": "144",
         "image": "How to Lie with Statistics.jpg",
         "date_started": "9/22/2023",
-        "date_finished": "",
-        "takeaways": ""
+        "date_finished": "10/7/2023",
+        "takeaways": [
+            "Exercise your skepticism muscles, questioning how statistics are derived, presented, and explained.", 
+            "Lend credence to your own findings by ethically representing what is and is not, what can and cannot be taken away."
+        ]
     },
     {
         "title": "The Psychology of Money",
