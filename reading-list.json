@@ -1,5 +1,17 @@
 [
     {
+        "title": "D3 for the Impatient",
+        "description": "Written for technically savvy readers with a background in programming or data science, the book moves quickly, emphasizing unifying concepts and patterns. Anticipating common difficulties, author Philipp K. Janert teaches you how to apply D3 to your own problems.",
+        "author": "Philipp K. Janert",
+        "year": "2019",
+        "category": "Data",
+        "pages": "235",
+        "image": "D3 for the Impatient.jpg",
+        "date_started": "10/12/2023",
+        "date_finished": "",
+        "takeaways": ""
+    },
+    {
         "title": "How to Lie with Statistics",
         "description": "The book remains relevant as a wake-up call for people unaccustomed to examining the endless flow of numbers pouring from Wall Street, Madison Avenue, and everywhere else someone has an axe to grind, a point to prove, or a product to sell.",
         "author": "Darrell Huff",
@@ -54,8 +66,12 @@
         "pages": "233",
         "image": "resonate.jpg",
         "date_started": "7/19/2023",
-        "date_finished": "",
-        "takeaways": ""
+        "date_finished": "10/12/2023",
+        "takeaways": [
+            "Effective storytelling oscillates between what is and what could be, inspiring the audience to chase the latter by arming them with tools to overcome the former.", 
+            "Storytelling requires a process of generating content and structuring it for meaning; focus on the emotions and logic, creating a proper balance to establish credibility.", 
+            "The presentation is just a tool; the presenter is just a medium; the idea is the champion for the audience, the hero, to cross the threshold of life as is to what life can be."
+        ]
     },
     {
         "title": "slide:ology",
