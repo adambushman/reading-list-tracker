@@ -8,8 +8,11 @@
         "pages": "235",
         "image": "D3 for the Impatient.jpg",
         "date_started": "10/12/2023",
-        "date_finished": "",
-        "takeaways": ""
+        "date_finished": "11/25/2023",
+        "takeaways": [
+            "D3 is less of a graphics library and more of a library to manipulate elements of the DOM for visualization.", 
+            "The <g> tag is a super power for compartmentalizing an SVG's tags but also for transforms, faceting, and much, much more."
+        ]
     },
     {
         "title": "How to Lie with Statistics",
