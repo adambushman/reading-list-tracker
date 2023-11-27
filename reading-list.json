@@ -1,5 +1,29 @@
 [
     {
+        "title": "A Christmas Carol",
+        "description": "First published on 19 December 1843, A Christmas Carol became an instant classic. Scrooge's transformation from grumpy miser to charitable figure carries a heart-warming message for the Christmas season - a time of peace and goodwill to all men.",
+        "author": "Charles Dickens",
+        "year": "1843",
+        "category": "Biography",
+        "pages": "208",
+        "image": "A Christmas Carol.jpg",
+        "date_started": "12/1/2023",
+        "date_finished": "",
+        "takeaways": ""
+    },
+    {
+        "title": "Assisted",
+        "description": "Johns autobiography, Assisted, pulls back the curtain on his very personal life to show fans a thoughtful recounting of the people, places, and events that have connected with John along his path of extraordinary success.",
+        "author": "John Stockton with Kerry L. Pickett",
+        "year": "2019",
+        "category": "Biography",
+        "pages": "400",
+        "image": "Assisted.jpg",
+        "date_started": "11/26/2023",
+        "date_finished": "",
+        "takeaways": ""
+    },
+    {
         "title": "D3 for the Impatient",
         "description": "Written for technically savvy readers with a background in programming or data science, the book moves quickly, emphasizing unifying concepts and patterns. Anticipating common difficulties, author Philipp K. Janert teaches you how to apply D3 to your own problems.",
         "author": "Philipp K. Janert",
