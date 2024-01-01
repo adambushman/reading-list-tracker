@@ -22,8 +22,11 @@
         "pages": "400",
         "image": "Assisted.jpg",
         "date_started": "11/26/2023",
-        "date_finished": "",
-        "takeaways": ""
+        "date_finished": "1/1/2024",
+        "takeaways": [
+            "One's resolve to work cannot be understated in success of any kind. Luck favors the prepared, those whose contributions narrow the range of possibilities in their favor.", 
+            "Long-term health and fitness is an investment, contributed to daily in many small actions. Trust the power of cumulative gains."
+        ]
     },
     {
         "title": "D3 for the Impatient",
