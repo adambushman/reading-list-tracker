@@ -5,7 +5,8 @@ const state = {
         Professional: "bi-briefcase", 
         Data: "bi-bar-chart", 
         Biography: "bi-person", 
-        Finance: "bi-piggy-bank"
+        Finance: "bi-piggy-bank", 
+        Classic: "bi-book", 
     }
 }
 

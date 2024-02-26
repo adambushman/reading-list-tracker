@@ -1,10 +1,34 @@
 [
     {
+        "title": "The Power of Bad",
+        "description": "How the negativity effect rules us and how we can rule it.",
+        "author": "John Tierney, Roy F. Baumeister",
+        "year": "2021",
+        "category": "Professional",
+        "pages": "336",
+        "image": "The Power of Bad.jpg",
+        "date_started": "2/25/2024",
+        "date_finished": "",
+        "takeaways": ""
+    },
+    {
+        "title": "Fundamentals of Data Engineering",
+        "description": "With this practical book, you'll learn how to plan and build systems to serve the needs of your organization and customers by evaluating the best technologies available through the framework of the data engineering lifecycle.",
+        "author": "Joe Reis & Matt Housley",
+        "year": "1843",
+        "category": "Data",
+        "pages": "447",
+        "image": "Fundamentals of Data Engineering.jpg",
+        "date_started": "2/6/2024",
+        "date_finished": "",
+        "takeaways": ""
+    },
+    {
         "title": "A Christmas Carol",
         "description": "First published on 19 December 1843, A Christmas Carol became an instant classic. Scrooge's transformation from grumpy miser to charitable figure carries a heart-warming message for the Christmas season - a time of peace and goodwill to all men.",
         "author": "Charles Dickens",
         "year": "1843",
-        "category": "Biography",
+        "category": "Classic",
         "pages": "208",
         "image": "A Christmas Carol.jpg",
         "date_started": "12/1/2023",
@@ -24,7 +48,7 @@
         "date_started": "11/26/2023",
         "date_finished": "1/1/2024",
         "takeaways": [
-            "One's resolve to work cannot be understated in success of any kind. Luck favors the prepared, those whose contributions narrow the range of possibilities in their favor.", 
+            "One's resolve to work cannot be understated in success of any kind. Luck favors the prepared, those whose contributions narrow the range of possibilities in their favor.",
             "Long-term health and fitness is an investment, contributed to daily in many small actions. Trust the power of cumulative gains."
         ]
     },
@@ -39,7 +63,7 @@
         "date_started": "10/12/2023",
         "date_finished": "11/25/2023",
         "takeaways": [
-            "D3 is less of a graphics library and more of a library to manipulate elements of the DOM for visualization.", 
+            "D3 is less of a graphics library and more of a library to manipulate elements of the DOM for visualization.",
             "The <g> tag is a super power for compartmentalizing an SVG's tags but also for transforms, faceting, and much, much more."
         ]
     },
@@ -54,7 +78,7 @@
         "date_started": "9/22/2023",
         "date_finished": "10/7/2023",
         "takeaways": [
-            "Exercise your skepticism muscles, questioning how statistics are derived, presented, and explained.", 
+            "Exercise your skepticism muscles, questioning how statistics are derived, presented, and explained.",
             "Lend credence to your own findings by ethically representing what is and is not, what can and cannot be taken away."
         ]
     },
@@ -69,8 +93,8 @@
         "date_started": "9/4/2023",
         "date_finished": "9/21/2023",
         "takeaways": [
-            "Learn to be satisfied with enough, creating a gap between your ego and income such that flexibility, optionality, and freedom are at your disposal.", 
-            "Perceptions of others and their financial pathes aren't reality and don't reflect their status of wealth, nor the game they are playing.", 
+            "Learn to be satisfied with enough, creating a gap between your ego and income such that flexibility, optionality, and freedom are at your disposal.",
+            "Perceptions of others and their financial pathes aren't reality and don't reflect their status of wealth, nor the game they are playing.",
             "Bet on time and consistency to stockpile your savings, compound your investments, and reveal true desires and passions worthy of one's money."
         ]
     },
@@ -85,7 +109,7 @@
         "date_started": "7/21/2023",
         "date_finished": "8/28/2023",
         "takeaways": [
-            "No measure of success is worth sacrificing one's own mentalor physical health, nor relationships that fulfill one's purpose.", 
+            "No measure of success is worth sacrificing one's own mentalor physical health, nor relationships that fulfill one's purpose.",
             "Employ the roles of father, husband, friend, etc. as best as possible in every moment so that change brings satisfaction, not regret."
         ]
     },
@@ -100,8 +124,8 @@
         "date_started": "7/19/2023",
         "date_finished": "10/12/2023",
         "takeaways": [
-            "Effective storytelling oscillates between what is and what could be, inspiring the audience to chase the latter by arming them with tools to overcome the former.", 
-            "Storytelling requires a process of generating content and structuring it for meaning; focus on the emotions and logic, creating a proper balance to establish credibility.", 
+            "Effective storytelling oscillates between what is and what could be, inspiring the audience to chase the latter by arming them with tools to overcome the former.",
+            "Storytelling requires a process of generating content and structuring it for meaning; focus on the emotions and logic, creating a proper balance to establish credibility.",
             "The presentation is just a tool; the presenter is just a medium; the idea is the champion for the audience, the hero, to cross the threshold of life as is to what life can be."
         ]
     },
@@ -116,8 +140,8 @@
         "date_started": "6/30/2023",
         "date_finished": "7/18/2023",
         "takeaways": [
-            "Communication mediums are a spectrum. The trick is to land at a crossroads where audience, situation, message, etc., align for a transformative experience.", 
-            "Design is a journey of discovery. Good design comes with time and experimentation. Embrace the struggle necessary to craft an experience.", 
+            "Communication mediums are a spectrum. The trick is to land at a crossroads where audience, situation, message, etc., align for a transformative experience.",
+            "Design is a journey of discovery. Good design comes with time and experimentation. Embrace the struggle necessary to craft an experience.",
             "Storytelling is an arc, a progression of curiosity and information absorption. Embrace the story by telling it scene by scene, no matter the content."
         ]
     },
@@ -132,7 +156,7 @@
         "date_started": "6/13/2023",
         "date_finished": "7/15/2023",
         "takeaways": [
-            "The power of visualizations come in their ability to distill the complex. Be careful to do so in a truly representative manner that does not manipulate or deceive.", 
+            "The power of visualizations come in their ability to distill the complex. Be careful to do so in a truly representative manner that does not manipulate or deceive.",
             "Special care must be taken when consuming charts. Give the utmost attention to every component of the visual to fully understand what it does and doesn't say."
         ]
     },
@@ -147,8 +171,8 @@
         "date_started": "6/8/2023",
         "date_finished": "6/11/2023",
         "takeaways": [
-            "You're capable of anything so long as is present a fierce desire and a signifcant investment made.", 
-            "Greatness comes at a cost, often realized by those closest to us first, but eventually paid in full by one's self.", 
+            "You're capable of anything so long as is present a fierce desire and a signifcant investment made.",
+            "Greatness comes at a cost, often realized by those closest to us first, but eventually paid in full by one's self.",
             "What is your reputation? What is your legacy? Every moment is a chance to leave your mark on things and people around you."
         ]
     },
@@ -163,7 +187,7 @@
         "date_started": "5/30/2023",
         "date_finished": "6/7/2023",
         "takeaways": [
-            "Being proficient at something doesn't fully correlate with the best outcome resulting from one's efforts. Often the sum of a group's output can yield greater results.", 
+            "Being proficient at something doesn't fully correlate with the best outcome resulting from one's efforts. Often the sum of a group's output can yield greater results.",
             "The objectives can be muddled by the process, especially when there is a correlation. Focus on what truly drives the objective independent of external factors."
         ]
     },
@@ -178,8 +202,8 @@
         "date_started": "3/7/2023",
         "date_finished": "4/30/2023",
         "takeaways": [
-            "Strategy isn't a process; there's no set theory on strategy design or creation. Strategy is about identifying the key component and organizing everything and everyone therearound.", 
-            "Science is the study of how things are while design is the study of how things out to be. Strategy sits at this intriguing intersection.", 
+            "Strategy isn't a process; there's no set theory on strategy design or creation. Strategy is about identifying the key component and organizing everything and everyone therearound.",
+            "Science is the study of how things are while design is the study of how things out to be. Strategy sits at this intriguing intersection.",
             "Goals are often set arbitrarily, akin to the Cheshire Cat scenario. Instead, Strategy can reveal the landscape and make objectives crystal clear."
         ]
     }
